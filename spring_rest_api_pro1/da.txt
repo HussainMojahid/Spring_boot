@@ -1,0 +1,137 @@
+[
+    {
+        "id": 3,
+        "firstName": "Md",
+        "lastName": "Abadullah",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": true
+    },
+    {
+        "id": 2,
+        "firstName": "Shahid",
+        "lastName": "Hussain",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": true
+    },
+    {
+        "id": 5,
+        "firstName": "Muzammil",
+        "lastName": "Hussain",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": true
+    }
+]
+
+
+[
+    {
+        "id": 3,
+        "firstName": "Md",
+        "lastName": "Abadullah",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": true
+    },
+    {
+        "id": 4,
+        "firstName": "Majid",
+        "lastName": "Hussain",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": false
+    },
+    {
+        "id": 2,
+        "firstName": "Shahid",
+        "lastName": "Hussain",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": true
+    },
+    {
+        "id": 1,
+        "firstName": "Mojahid",
+        "lastName": "Hussain",
+        "contact": 233242,
+        "address": "Bhopal",
+        "job": "Software engineer",
+        "role": 1,
+        "status": false
+    },
+    {
+        "id": 5,
+        "firstName": "Muzammil",
+        "lastName": "Hussain",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": true
+    }
+]
+
+
+
+{
+    "id": 6,
+    "user": {
+        "id": 7,
+        "firstName": "Hussain",
+        "lastName": "Mohammad",
+        "contact": 2342,
+        "address": "Darbhanga",
+        "job": "Software engineer",
+        "role": 1,
+        "status": true
+    },
+    "salary": 35000.0,
+    "degination": "trainee"
+}
+
+
+[
+  {
+    "id": 6,
+    "user": {
+      "id": 7,
+      "firstName": "Hussain",
+      "lastName": "Mojahid",
+      "contact": 2342,
+      "address": "Darbhanga",
+      "job": "Software engineer",
+      "role": 1,
+      "status": true
+    },
+    "salary": 35000.0,
+    "degination": "trainee"
+  },
+  {
+    "id": 8,
+    "user": {
+      "id": 9,
+      "firstName": "Azmati",
+      "lastName": "Khatoon",
+      "contact": 2342,
+      "address": "Darbhanga",
+      "job": "Software engineer",
+      "role": 1,
+      "status": true
+    },
+    "salary": 35000.0,
+    "degination": "Senior Software Developer"
+  }
