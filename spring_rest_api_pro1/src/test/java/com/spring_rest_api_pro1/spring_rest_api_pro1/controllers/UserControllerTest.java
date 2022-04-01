@@ -40,7 +40,7 @@ public class UserControllerTest {
     @Test
     void testAddUser() throws Exception {
 
-        User user = new User(1, "Mohammad", "Hussain", 94305, "Darbhanga", "Developer", 1, true);
+        User user = new User(1, "Mohammad", "Hussain", 94305L, "Darbhanga", "Developer", 1, true);
         
         
         Mockito.when(userService.addUser(user)).thenReturn(user);
@@ -74,8 +74,8 @@ public class UserControllerTest {
     @Test
     void testGetActiveUser() throws Exception {
 
-        User user = new User(1, "Mohammad", "Hussain", 94305, "Darbhanga", "Developer", 1, true);
-        User user1 = new User(1, "Mojahid", "Hussain", 94305, "Darbhanga", "Developer", 1, true);
+        User user = new User(1, "Mohammad", "Hussain", 94305L, "Darbhanga", "Developer", 1, true);
+        User user1 = new User(1, "Mojahid", "Hussain", 94305L, "Darbhanga", "Developer", 1, true);
         List<User> list = new ArrayList<>();
         list.add(user);
         list.add(user1);
@@ -93,7 +93,7 @@ public class UserControllerTest {
 
     @Test
     void testGetUser() throws Exception {
-        User user = new User(1, "Mohammad", "Hussain", 94305, "Darbhanga", "Developer", 1, true);
+        User user = new User(1, "Mohammad", "Hussain", 94305L, "Darbhanga", "Developer", 1, true);
 
         // Mockito.when(userService.getUser(Mockito.anyInt())).thenReturn(user);
 
@@ -109,7 +109,7 @@ public class UserControllerTest {
 
     @Test
     void testUpdateUser() throws Exception {
-        User user = new User(1, "Mohammad", "Hussain", 94305, "Darbhanga", "Developer", 1, true);
+        User user = new User(1, "Mohammad", "Hussain", 94305L, "Darbhanga", "Developer", 1, true);
         Mockito.when(userService.updateUser(user, 1)).thenReturn(user);
         var  request = MockMvcRequestBuilders.put("/user/{id}",1)
         .contentType(MediaType.APPLICATION_JSON).content(asJsonString(user));

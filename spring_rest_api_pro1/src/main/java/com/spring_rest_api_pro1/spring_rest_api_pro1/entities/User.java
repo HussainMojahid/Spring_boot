@@ -31,7 +31,7 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    private int contact;
+    private Long contact;
 
     private String address;
 

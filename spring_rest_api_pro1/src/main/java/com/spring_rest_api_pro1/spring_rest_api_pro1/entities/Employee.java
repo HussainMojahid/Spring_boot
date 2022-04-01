@@ -26,7 +26,7 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int id;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.MERGE)
     private User user;
 
     private float salary;

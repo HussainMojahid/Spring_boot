@@ -24,7 +24,7 @@ public class UserRepoTest {
 
     @Test
     void testFindById() {
-        User user = new User(1, "xyz", "xyz", 94305, "Darbhanga", "Developer", 1, true);
+        User user = new User(1, "xyz", "xyz", 94305L, "Darbhanga", "Developer", 1, true);
         
         userRepo.save(user);
         
