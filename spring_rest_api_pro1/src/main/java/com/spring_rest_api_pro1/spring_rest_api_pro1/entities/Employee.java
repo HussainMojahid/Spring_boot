@@ -7,7 +7,18 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
 @Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+@Builder
 public class Employee {
 
 
@@ -20,64 +31,6 @@ public class Employee {
 
     private float salary;
 
-    private String degination;
-
-    public Employee() {
-
-        super();
-    }
-
-    public Employee(int id, User user, float salary, String degination) {
-        this.id = id;
-        this.user = user;
-        this.salary = salary;
-        this.degination = degination;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public float getSalary() {
-        return salary;
-    }
-
-    public void setSalary(float salary) {
-        this.salary = salary;
-    }
-
-    public String getDegination() {
-        return degination;
-    }
-
-    public void setDegination(String degination) {
-        this.degination = degination;
-    }
-
-    @Override
-    public String toString() {
-        return "Employee [degination=" + degination + ", id=" + id + ", salary=" + salary + ", user=" + user + "]";
-    }
-
-    
-
-    
-
-    
-
-    
-
+    private String degination;    
     
 }

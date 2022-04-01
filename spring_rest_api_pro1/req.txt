@@ -1,0 +1,52 @@
+
+User :
+	id (unique primary Key)
+	FirstName String
+	LastName String
+	Contact int
+	Address String
+	Job  String
+	role int
+	status int (1 Active, 0 inactive)
+
+
+
+Employee:
+	id (unique primary Key)
+	userId 
+	Salary
+	Designation
+
+
+Create Rest APIs For User: 
+
+	1. POST API : Add user   (/user)
+
+	2. GET API : Fetch all user, requestParam   (/user?LastName="ram"&all=false) 
+			all active user [if all is true then fetch all user data,
+			if all is false fetch only active users, 
+			if all is not given then fetch only active users]
+
+	3. GET API : Fetch userby Id, Pathparam : (/user/{id})  all active user
+
+	4. PUT API : Update user data
+
+	5. DELETE  : soft delete
+
+
+Create Rest APIs For Employee: 
+
+	1. POST API : Add  employee   (/Employee)
+
+	2. GET API : Fetch all Employee , 
+			fetch userData also, 
+			requestParam   (/employee?Designation="trainee") 
+
+	3. GET API : Fetch Designationby Id ,
+			 fetch userData also,
+			 Pathparam : (/employee/{id})  all active employee
+
+	4. PUT API : Update employee data
+
+	5. DELETE  : soft delete
+ 

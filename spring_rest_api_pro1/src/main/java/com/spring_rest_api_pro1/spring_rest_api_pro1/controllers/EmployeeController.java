@@ -31,10 +31,10 @@ public class EmployeeController {
     }
 
     @GetMapping("/emp")
-    public List<Employee> getAllEmployee(@RequestParam(required =false) String Degination){
+    public List<Employee> getAllEmployee(@RequestParam(required =false) String Designation){
 
-        if(Degination!=null){
-            List<Employee> emp = this.employeeService.getEmployeeByDegination(Degination);
+        if(Designation!=null){
+            List<Employee> emp = this.employeeService.getEmployeeByDegination(Designation);
             return emp;
 
         }
